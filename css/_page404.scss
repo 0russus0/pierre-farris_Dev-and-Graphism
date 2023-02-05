@@ -1,0 +1,85 @@
+/* ------------------------ 404 ------------------------ */
+.m404 {
+    background-color: var(--color-red);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 0;
+}
+.contain404 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    max-height: 75%;
+    z-index: 130;
+    padding: 2em;
+}
+.contain404 h1{
+	color: var(--color-black);
+    display: inline-block;
+    margin-bottom: 1em;
+    font-size: 2vw;
+}
+.contain-h1{
+	width: 100%;
+    text-align: center;
+}
+blockquote {
+	width: 100%;
+	height: auto;
+	font-family: var(--font-family-text);
+	color: var(--color-white);
+	font-size: 1.5em;
+	font-weight: 400;
+	margin: 0;
+}
+
+figcaption{
+	display: flex;
+	width: 100%;
+	height: auto;
+	font-family: var(--font-family-text);
+	color: var(--color-black);
+	font-size: 1.5em;
+	font-weight: 400;
+	margin: 0;
+	align-self: end;
+}
+
+
+.container-btn404{
+	display: flex;
+	width: 100%;
+	height: auto;
+	justify-content: center;
+	margin:2em 0 0 0;
+}
+
+.big {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	height: auto;
+	justify-content: center;
+	align-items: center;
+	font-family: var(--font-family-bigTitle);
+	color: var(--color-white);
+	/* font-size: 25vw; */
+	font-weight: 600;
+	margin: 0;
+}
+.big p{
+	font-size: 25vw;
+	display: inline-block;
+	width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    width: auto;
+    height: auto;
+	line-height: 100%;
+}
